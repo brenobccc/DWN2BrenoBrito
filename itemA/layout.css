@@ -1,0 +1,125 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#content{
+    display: flex;
+}
+
+nav{
+    background: #202020;
+    height: 91vh;
+    width:19vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px;
+}
+#content nav .nav-options{
+    border-bottom:  2px solid rgb(128, 124, 124);
+    width: 100%;
+    height: 200px;
+    margin-top: 5px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+#content nav .nav-options .nav-card-option{
+    background: rgba(226, 226, 226, 0.144);
+    width: 100%;
+    height: 30%;
+    margin: 5px;
+}
+
+
+
+#content nav .nav-options2{
+    height: 300px;
+    margin: 0;
+}
+
+
+
+
+main{
+    background: black;
+    width: 81vw;
+    height: 91vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    box-sizing: border-box;
+    
+}
+
+
+main .video-container{
+    width: 250px;
+    height: 200px;
+    background: red;
+    margin: 5px;
+}
+
+
+
+header{
+    background: #202020;
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+.logo-youtube{
+    width: 100px;
+    height: 50px;
+    background: orange;
+}
+
+
+.search-bar{
+    width: 550px;
+    height: 40px;
+    background: #0c0c0c;
+    display: flex;
+    align-items: center;
+
+}
+
+input{
+    background: #111111;
+    width:80%;
+    margin: 0;
+    height: 85%;
+}
+
+.search-bar #icon{
+    background: rgb(39, 37, 37);
+    width: 20%;
+    height: 90%;
+    margin: 0;
+}
+
+
+
+
+.menu-bar{
+    width: 200px;
+    height: 50px;
+    background:rgb(0, 45, 128);
+}
+
+
