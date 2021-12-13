@@ -72,14 +72,14 @@ main{
 main .video-container{
     width: 250px;
     height: 200px;
-    background: red;
+    background: rgb(63, 62, 62);
     margin: 6px;
     border-radius: 2px;
     
 }
 
 main .video-container .video-photo{
-    height: 70%;
+    height: 75%;
     width: 100%;
     background-image: url("https://i.ytimg.com/vi/Sp3dFF-Bts0/maxresdefault.jpg");
     background-position: hidden;
@@ -135,9 +135,12 @@ header{
 
 
 .logo-youtube{
-    width: 100px;
+    width: 120px;
     height: 50px;
-    background: orange;
+    
+    
+    background-image: url(youtubelogo.png);
+    background-size: cover;
 }
 
 
@@ -187,8 +190,29 @@ input::placeholder{
 .menu-bar{
     width: 200px;
     height: 50px;
-    background:rgb(0, 45, 128);
+
+    display: flex;
+    list-style: none;
+
+}
+
+.menu-bar li{
+    box-sizing: border-box;
+    margin: 2px;
+    width: 70px;
+    border-radius: 5px;
+    background: rgba(206, 29, 6, 0.644);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
     
 }
 
 
+.menu-bar li:hover{
+    background: rgba(206, 29, 6, 0.322);
+
+}
